@@ -1,0 +1,19 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="popup.css"></head>
+<body>
+<header><strong>MDGrab</strong><span id="info"></span></header>
+<div class="opts">
+  <label><input type="checkbox" id="fm" checked> Front matter (title, source, date)</label>
+  <label id="selWrap" hidden><input type="checkbox" id="sel" checked> Selection only</label>
+  <label id="thrWrap" hidden><input type="checkbox" id="thr" checked> Include comments</label>
+</div>
+<textarea id="md" spellcheck="false" readonly></textarea>
+<div class="btns"><button id="copy" class="primary">Copy Markdown</button><button id="dl">Download .md</button><button id="tplBtn">Template…</button></div>
+<div id="tplBox" hidden>
+  <textarea id="tpl" spellcheck="false"></textarea>
+  <div class="hint">{{frontmatter}} {{heading}} {{title}} {{url}} {{domain}} {{author}} {{date}} {{time}} {{content}}</div>
+  <div class="btns"><button id="tplSave" class="primary">Save template</button><button id="tplReset">Reset</button></div>
+</div>
+<div id="toast"></div>
+<script type="module" src="popup.js"></script>
+</body></html>

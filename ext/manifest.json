@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "MDGrab – Copy Page as Clean Markdown",
+  "short_name": "MDGrab",
+  "version": "0.1.0",
+  "description": "Turn any article or selection into clean Markdown for Obsidian, notes or LLM prompts. No signup, no limits, no tracking.",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "action": { "default_popup": "popup.html", "default_title": "MDGrab" },
+  "icons": { "16": "icons/16.png", "48": "icons/48.png", "128": "icons/128.png" }
+}

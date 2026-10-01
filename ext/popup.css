@@ -1,0 +1,9 @@
+body { font: 13px system-ui, sans-serif; width: 460px; margin: 0; padding: 8px; color: #222; }
+header { display: flex; justify-content: space-between; margin-bottom: 6px; } #info { color: #666; }
+.opts { display: flex; gap: 12px; margin-bottom: 6px; }
+textarea { width: 100%; box-sizing: border-box; height: 260px; font: 12px ui-monospace, monospace; border: 1px solid #cbd5e0; border-radius: 4px; padding: 6px; }
+.btns { display: flex; gap: 6px; margin-top: 6px; }
+button { font: inherit; padding: 4px 10px; border: 1px solid #cbd5e0; background: #fff; border-radius: 4px; cursor: pointer; }
+button.primary { background: #553c9a; color: #fff; border-color: #553c9a; }
+#toast { position: fixed; bottom: 6px; left: 8px; right: 8px; background: #2d3748; color: #fff; padding: 6px; border-radius: 4px; display: none; }
+#tplBox { margin-top: 6px; } #tpl { height: 90px; } .hint { color: #666; font: 11px ui-monospace, monospace; margin-top: 4px; }
